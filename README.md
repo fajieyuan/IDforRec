@@ -2,7 +2,7 @@
   https://arxiv.org/pdf/2303.13835.pdf
   Blog：https://blog.csdn.net/whgyxy/article/details/129941776
 
-In this paper we ask “Is ID embedding necessary for multimodal recommender system？” “Will the ID paradigm still dominate the RS community？” 
+## In this paper we ask “Is ID embedding necessary for multimodal recommender system？” “Will the ID paradigm still dominate the RS community？” 
 
 
 Recommendation models that utilize unique identities (IDs for short) to represent distinct users and items have been state-of-theart (SOTA) and dominated the recommender systems (RS) literature for over a decade. Meanwhile, the pre-trained modality encoders, such as BERT [10] and Vision Transformer [12], have become increasingly powerful in modeling the raw modality features of an item, such as text and images. Given this, a natural question arises: can a purely modality-based recommendation model (MoRec) outperforms or matches a pure ID-based model (IDRec) by replacing the itemID embedding with a SOTA modality encoder? In fact, this question was answered ten years ago when IDRec beats MoRec by a strong margin in both recommendation accuracy and efficiency. We aim to revisit this ‘old’ question and systematically study
