@@ -1,6 +1,6 @@
 # Where to Go Next for Recommender Systems? ID- vs. Modality-based Recommender Models Revisited （SIGIR2023）
   https://arxiv.org/pdf/2303.13835.pdf
-  Blog：https://blog.csdn.net/whgyxy/article/details/129941776
+  Blog：[https://blog.csdn.net/whgyxy/article/details/129941776](https://zhuanlan.zhihu.com/p/633839409)
 
 ## In this paper we ask “Is ID embedding necessary for multimodal recommender system？” “Will the ID paradigm still dominate the RS community？” 
 
