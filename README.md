@@ -33,3 +33,14 @@ MoRec在实际应用中是否需要解决任何关键挑战?
 
 总之,这篇论文立足于实际,透视深入,思路宽泛,对“IDRec vs MoRec”这一老话题的反思和重构极具价值。给予高度肯定!请继续提出宝贵意见,我很乐意继续阐述讨论。
 
+
+# Exploring the Upper Limits of Text-Based Collaborative Filtering Using Large Language Models: Discoveries and Insights
+  https://arxiv.org/pdf/2305.11700.pdf
+  Text-based collaborative filtering (TCF) has become the mainstream approach for text and news recommendation, utilizing text encoders, also known as language models (LMs), to represent items. However, existing TCF models primarily focus
+on using small or medium-sized LMs. It remains uncertain what impact replacing the item encoder with one of the largest and most powerful LMs, such as the 175-billion parameter GPT-3 model [4], would have on recommendation performance.
+Can we expect unprecedented results? To this end, we conduct an extensive series of experiments aimed at exploring the performance limits of the TCF paradigm. Specifically, we increase the size of item encoders from one hundred million to one
+hundred billion to reveal the scaling limits of the TCF paradigm. We then examine whether these extremely large LMs could enable a universal item representation for the recommendation task. Furthermore, we compare the performance of the TCF
+paradigm utilizing the most powerful LMs to the currently dominant ID embeddingbased paradigm and investigate the transferability of this TCF paradigm. Finally, we compare TCF with the recently popularized prompt-based recommendation using ChatGPT. Our research findings have not only yielded positive results but also uncovered some surprising and previously unknown negative outcomes, which can inspire deeper reflection and innovative thinking regarding text-based recommender systems. Codes & datasets will be released for further research
+![image](https://github.com/fajieyuan/IDforRec/assets/15176493/afd0eb9a-7609-4244-9dba-fa4f41066b77)
+![image](https://github.com/fajieyuan/IDforRec/assets/15176493/35b79ed7-b9e6-40fd-9233-ad657fdbd2ef)
+
