@@ -36,11 +36,14 @@ MoRec在实际应用中是否需要解决任何关键挑战?
 
 # Exploring the Upper Limits of Text-Based Collaborative Filtering Using Large Language Models: Discoveries and Insights
   https://arxiv.org/pdf/2305.11700.pdf
-  Text-based collaborative filtering (TCF) has become the mainstream approach for text and news recommendation, utilizing text encoders, also known as language models (LMs), to represent items. However, existing TCF models primarily focus
+  
+Text-based collaborative filtering (TCF) has become the mainstream approach for text and news recommendation, utilizing text encoders, also known as language models (LMs), to represent items. However, existing TCF models primarily focus
 on using small or medium-sized LMs. It remains uncertain what impact replacing the item encoder with one of the largest and most powerful LMs, such as the 175-billion parameter GPT-3 model [4], would have on recommendation performance.
 Can we expect unprecedented results? To this end, we conduct an extensive series of experiments aimed at exploring the performance limits of the TCF paradigm. Specifically, we increase the size of item encoders from one hundred million to one
 hundred billion to reveal the scaling limits of the TCF paradigm. We then examine whether these extremely large LMs could enable a universal item representation for the recommendation task. Furthermore, we compare the performance of the TCF
 paradigm utilizing the most powerful LMs to the currently dominant ID embeddingbased paradigm and investigate the transferability of this TCF paradigm. Finally, we compare TCF with the recently popularized prompt-based recommendation using ChatGPT. Our research findings have not only yielded positive results but also uncovered some surprising and previously unknown negative outcomes, which can inspire deeper reflection and innovative thinking regarding text-based recommender systems. Codes & datasets will be released for further research
+
+这段文字描述了一项研究项目，旨在探讨在文本和新闻推荐中使用大型语言模型（LMs）的潜在益处和限制。文本协同过滤（TCF）是一种流行的推荐方法，利用文本编码器（也称为LMs）来表示项目。然而，现有的TCF模型主要集中在使用小型或中型LMs。替换项目编码器为最大和最强大的LMs之一，例如1750亿参数的GPT-3模型[4]，对推荐性能的影响仍不确定。我们可以期望有前所未有的结果吗？为此，我们进行了一系列广泛的实验，旨在探索TCF范式的性能极限。具体而言，我们将项目编码器的大小从1亿逐步增加到1千亿，以揭示TCF范式的缩放限制。然后，我们检查这些极大的LMs是否能够为推荐任务提供通用项目表示。此外，我们还将使用最强大的LMs来比较TCF范式的性能与目前主流的基于ID嵌入的范式，并研究这种TCF范式的可转移性。最后，我们将使用ChatGPT将TCF与最近流行的基于提示的推荐进行比较。我们的研究发现不仅产生了积极的结果，还揭示了一些意想不到的负面结果，这可以激发更深入的思考和创新思维，以改进基于文本的推荐系统。代码和数据集将发布以支持进一步的研究。
 ![image](https://github.com/fajieyuan/IDforRec/assets/15176493/afd0eb9a-7609-4244-9dba-fa4f41066b77)
 ![image](https://github.com/fajieyuan/IDforRec/assets/15176493/35b79ed7-b9e6-40fd-9233-ad657fdbd2ef)
 
