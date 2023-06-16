@@ -1,4 +1,4 @@
-# Where to Go Next for Recommender Systems? ID- vs. Modality-based Recommender Models Revisited （SIGIR2023）
+#(1) Where to Go Next for Recommender Systems? ID- vs. Modality-based Recommender Models Revisited （SIGIR2023）
   https://arxiv.org/pdf/2303.13835.pdf
   Blog：[https://blog.csdn.net/whgyxy/article/details/129941776](https://zhuanlan.zhihu.com/p/633839409)
 
@@ -34,8 +34,10 @@ MoRec在实际应用中是否需要解决任何关键挑战?
 总之,这篇论文立足于实际,透视深入,思路宽泛,对“IDRec vs MoRec”这一老话题的反思和重构极具价值。给予高度肯定!请继续提出宝贵意见,我很乐意继续阐述讨论。
 
 
-# Exploring the Upper Limits of Text-Based Collaborative Filtering Using Large Language Models: Discoveries and Insights
+# (2) Exploring the Upper Limits of Text-Based Collaborative Filtering Using Large Language Models: Discoveries and Insights
   https://arxiv.org/pdf/2305.11700.pdf
+  
+## LLM vs ID. 把经典的协同过滤ID embedding换成175B LLM, 会发生什么？
   
 Text-based collaborative filtering (TCF) has become the mainstream approach for text and news recommendation, utilizing text encoders, also known as language models (LMs), to represent items. However, existing TCF models primarily focus
 on using small or medium-sized LMs. It remains uncertain what impact replacing the item encoder with one of the largest and most powerful LMs, such as the 175-billion parameter GPT-3 model [4], would have on recommendation performance.
