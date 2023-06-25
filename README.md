@@ -37,7 +37,7 @@ MoRec在实际应用中是否需要解决任何关键挑战?
 # (2) Exploring the Upper Limits of Text-Based Collaborative Filtering Using Large Language Models: Discoveries and Insights
   https://arxiv.org/pdf/2305.11700.pdf
   
-## LLM vs ID. 把经典的协同过滤ID embedding换成175B LLM, 会发生什么？
+## LLM vs ID. 把经典的协同过滤ID embedding换成175B LLM, 会发生什么？LLM加持是否能实现foundation recommender models
   
 Text-based collaborative filtering (TCF) has become the mainstream approach for text and news recommendation, utilizing text encoders, also known as language models (LMs), to represent items. However, existing TCF models primarily focus
 on using small or medium-sized LMs. It remains uncertain what impact replacing the item encoder with one of the largest and most powerful LMs, such as the 175-billion parameter GPT-3 model [4], would have on recommendation performance.
